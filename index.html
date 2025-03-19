@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- Tag que define que o tipo de documento é HTML-->
+<html lang="pt-br">
+  <!-- Elemento raíz da página -->
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fonte Inter retirada do Google Fonts -->
+    <meta charset="UTF-8" />
+    <!--Metaconfiguração que faz a página aceitar caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Metaconfiguração que faz o conteúdo ser exibido de acorda com a largura da tela do dispositivo atual -->
+    <title>DevLinks</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container-principal">
+      <!-- INÍCIO CONTAINER PRINCIPAL -->
+      <div id="container-profile">
+        <!-- INÍCIO CONTAINER PROFILE -->
+        <img src="./assets/avatar.png" alt="Foto de perfil" />
+        <p>@amostradinho</p>
+      </div>
+      <!-- FIM CONTAINER PROFILE -->
+       <div id="switch" onclick="mudarTema()">
+        <button></button>
+        <span></span>
+       </div>
+      <ul>
+        <!-- INÍCIO UL -->
+        <li>
+          <a href="#">Bora Bill</a>
+        </li>
+        <li>
+          <a href="#">Casca de bala</a>
+        </li>
+        <li>
+          <a href="#">La ele</a>
+        </li>
+        <li>
+          <a href="#" target="_blank">Receba</a
+          ><!-- O target _blank faz uma nova aba ser criada quando o link for clicado, evitando que o usuário saia da página -->
+        </li>
+      </ul>
+      <!-- FIM UL -->
+       <div id="redes-sociais">
+        <a href="#" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="#" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="#" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="#" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+       </div>
+       <footer>
+        Feito pelo otário do Yago KKKKKK
+       </footer>
+    </div>
+    <!-- FIM CONTAINER PRINCIPAL -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
